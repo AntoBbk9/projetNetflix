@@ -115,11 +115,27 @@ header::before{
 .Section__text{
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 10px;
     padding-top: 90px;
+    font-size: 32px;
 }
 .Main__section1 {
     background-color: black;
+    border: ;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 70px;
+    border-top: 7px solid rgba(255, 255, 255, 0.145);
+}
+.TV__style{
+    width: 360px;
+    height: 270px;
+    padding-top: 50px;
+}
+.section__width{
+    margin: auto;
+    padding: auto;
+}
+.paragraph__size{
+    font-size: 16px;
 }
