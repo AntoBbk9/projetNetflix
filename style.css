@@ -52,12 +52,14 @@ header::before{
 }
 .paragraphe__padding{
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 .header__paragraphStyle{
     color: white;
     font-weight: bolder;
     font-size: 48px;
     align-items: center;
+    height: 60px;
 }
 .header__paragraphStyle2{
     font-size: 24px;
@@ -91,6 +93,7 @@ header::before{
     background-color: rgba(0, 0, 0, 0.347);
     border: green solid 1px;
     border-radius: 0.1875rem;
+    color: white;
 }
 .nav__boutons{
     display: flex;
