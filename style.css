@@ -116,10 +116,10 @@ header::before{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 250px;
+    padding-top: 230px;
     width: 26%;
 }
-.Main__section1 {
+.Main__section {
     background-color: black;
     display: flex;
     gap: 1px;
@@ -127,10 +127,17 @@ header::before{
     padding-bottom: 70px;
     border-top: 7px solid rgba(255, 255, 255, 0.145);
 }
-.TV__style{
-    padding-top: 90px;
+.pic__style{
+    padding-top: 70px;
 }
 .section__width{
     margin: auto;
     padding: auto;
+}
+.section--row-reverse{
+    flex-direction: row-reverse;
+}
+.style--text{
+    width: 30%;
+    gap: 70px;
 }
