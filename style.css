@@ -14,6 +14,7 @@
     mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
+    font-weight: 500;
   }
 
 
@@ -21,7 +22,7 @@
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 header {
-   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7),80%, transparent), url(Netflix/CD-en-20240401-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.779),80%, transparent), url(Netflix/CD-en-20240401-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 header::before{
     background-color: black;
@@ -29,14 +30,16 @@ header::before{
 }
 
 .header__nav {
-    padding-top: 30px;
-    width: 90%;
+    padding-top: 10px;
+    padding-right: 150px;
+    width: 60%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
 .nav__logo {
-    height: 40px;
-    width: 150px;
+    height: 70px;
+    width: 180px;
 }
 .nav__bouton {
     text-decoration: none;
@@ -47,8 +50,9 @@ header::before{
     position: absolute;
     background-color:red;
     border-radius: 0.1875rem;
-    height: 30px;
+    height: 35px;
     width: 65px;
+    font-weight: 500;
 }
 .paragraphe__padding{
     padding-top: 200px;
@@ -63,11 +67,12 @@ header::before{
 }
 .header__paragraphStyle2{
     font-size: 24px;
-    font-weight: lighter;
+    margin-top: 16px;
+    font-weight: 400;
 }
 .header__paragraphStyle3{
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: 400;
 }
 .header__paragraphe {
     display: flex;
@@ -85,17 +90,22 @@ header::before{
     background-color:red;
     border-radius: 0.1875rem;
     height: 40px;
-    width: 180px;
+    width: 150px;
+    font-weight: 500;
 }
 #mail{
     height: 40px;
-    width: 350px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.347);
     border: green solid 1px;
     border-radius: 0.1875rem;
     color: white;
+    font-weight: 200;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .nav__boutons{
     display: flex;
     gap: 10px;
+    margin-right: 150px;
 }
