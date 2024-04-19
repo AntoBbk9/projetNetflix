@@ -58,19 +58,19 @@ header::before{
     padding-top: 200px;
     padding-bottom: 200px;
 }
-.header__paragraphStyle{
+.Style__paragraph{
     color: white;
     font-weight: bolder;
     font-size: 48px;
     align-items: center;
     height: 60px;
 }
-.header__paragraphStyle2{
+.All__paragraphStyle2{
     font-size: 24px;
     margin-top: 16px;
     font-weight: 400;
 }
-.header__paragraphStyle3{
+.All__paragraphStyle3{
     font-size: 20px;
     font-weight: 400;
 }
@@ -108,4 +108,18 @@ header::before{
     display: flex;
     gap: 10px;
     margin-right: 150px;
+}
+
+/* .....the main..... */
+
+.Section__text{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.Main__section1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
 }
