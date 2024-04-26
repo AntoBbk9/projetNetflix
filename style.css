@@ -141,3 +141,25 @@ header::before{
     width: 30%;
     gap: 70px;
 }
+.boxshot{
+    height: 48px;
+    width: 34px;
+}
+.boxshot__generic{
+
+}
+.generic{
+    width: ;
+}
+.unicstyle__paragraph{
+    padding-right: 400px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    width: 15%;
+    gap: 70px;
+}
+.paragraph__unic{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
