@@ -159,7 +159,6 @@ header::before{
 }
 .paragraph__unic{
     width: 100%;
-    text-align: center;
     padding-top: 70px;
 }
 .section__svg{
@@ -184,10 +183,6 @@ header::before{
     flex-direction: column;
     gap: 10px;
     align-items: center;
-}
-.Style__paragraph{
-    align-items: center;
-    text-align: center;
 }
 .All__paragraphStyle3{
     font-size: 32px;
