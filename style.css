@@ -149,7 +149,6 @@ header::before{
 
 }
 .generic{
-    width: ;
 }
 .unicstyle__paragraph{
     padding-right: 400px;
@@ -162,4 +161,38 @@ header::before{
     width: 100%;
     text-align: center;
     padding-top: 70px;
+}
+.section__svg{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+.button__section{
+    background-color: rgba(71, 70, 70, 0.656);
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.allbutons__section{
+    background-color: black;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.Style__paragraph{
+    align-items: center;
+    text-align: center;
+}
+.All__paragraphStyle3{
+    font-size: 32px;
+    padding-top: 23px;
+}
+.buttonMain{
+    justify-content: center;
 }
